@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register New User"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"/>
+
+
+    <TextView
+        android:text="Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="83dp"
+        android:gravity="bottom"
+        android:id="@+id/textName"/>
+
+    <TextView
+        android:text="Email: "
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textName"
+        android:layout_alignEnd="@+id/textName"
+        android:gravity="bottom"
+        android:id="@+id/textEmail"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/textEmail"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_below="@+id/textName"
+        />
+
+    <TextView
+        android:text="Phone #:"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textEmail"
+        android:layout_alignEnd="@+id/textEmail"
+        android:gravity="bottom"
+        android:id="@+id/textPhone"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/textPhone"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_below="@+id/textEmail"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@+id/textName"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/textPhone"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
