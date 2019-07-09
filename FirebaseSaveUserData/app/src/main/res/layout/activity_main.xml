@@ -39,8 +39,15 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                />
-
+                tools:ignore="InvalidImeActionId" />
+   <Button
+    android:id="@+id/email_sign_up_button"
+    style="?android:textAppearanceSmall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Sign Up"
+    android:textStyle="bold"/>
             <Button
                 android:id="@+id/email_sign_in_button"
                 style="?android:textAppearanceSmall"
